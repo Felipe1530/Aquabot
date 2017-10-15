@@ -5,10 +5,13 @@
  */
 package pack.persistencia;
 
+import java.sql.Connection;
+
 /**
  *
  * @author root
  */
 public interface Conexion {
-    
+    public void start();
+    public void close();
 }
